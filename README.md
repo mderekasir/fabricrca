@@ -85,10 +85,6 @@ later is correctly classed as a *victim*.
 
 **Derek Asir Muthurajan Caleb**: author, owner, and publisher.
 
-This is an independent implementation of the ideas in the article. It contains no proprietary
-code, data, event catalogues, message IDs, or schemas from any vendor. The event types and parsing
-rules are generic, and all example logs are fictitious.
-
 ## License
 
 Apache License 2.0. See [LICENSE](LICENSE).
