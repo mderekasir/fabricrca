@@ -1,8 +1,5 @@
 # fabricrca: from host symptom to fabric root cause
 
-Companion code for the article **"From Symptom to Root Cause: AI-Driven Correlation of Host
-Multipath Loss with Fabric and Array Events via Local RAG"** (Derek Asir Muthurajan Caleb, 2026).
-
 When a server loses a storage path, the evidence is spread across three systems, each with its
 own log format and its own clock:
 
