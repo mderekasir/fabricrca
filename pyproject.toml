@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabricrca"
+version = "0.1.0"
+description = "Correlate host multipath path loss with Fibre Channel switch and storage-array events to find the root cause, with evidence citations"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Derek Asir Muthurajan Caleb" }]
+maintainers = [{ name = "Derek Asir Muthurajan Caleb" }]
+requires-python = ">=3.9"
+keywords = ["root cause analysis", "AIOps", "Fibre Channel", "SAN", "multipath", "RAG", "LlamaIndex", "Ollama"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: System :: Networking :: Monitoring",
+]
+
+[project.optional-dependencies]
+rag = ["llama-index-core>=0.10", "llama-index-embeddings-ollama"]
+
+[project.scripts]
+fabricrca = "fabricrca.cli:main"
+
+[tool.setuptools]
+packages = ["fabricrca"]

@@ -1,0 +1,4 @@
+Sep 24 11:02:17 dbhost1 kernel: fc host3: adapter firmware error detected, collecting dump
+Sep 24 11:02:18 dbhost1 kernel: fc host3: link down
+Sep 24 11:02:18 dbhost1 multipathd[812]: sdc: mark as failed
+Sep 24 11:02:18 dbhost1 multipathd[812]: mpatha: remaining active paths: 1

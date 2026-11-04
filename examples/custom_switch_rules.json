@@ -1,0 +1,9 @@
+{
+  "_comment": "Example of custom parsing rules. Point 'switch_rules' in a case file at a file like this to match your platform's log wording. Named groups: port, wwn, value.",
+  "rules": [
+    {"pattern": "(?i)\\bif(?:ace)?\\s+(?P<port>fc[\\d/]+).*\\brx[- ]power\\b.*\\blow\\b", "event_type": "SW_OPTIC_RX_LOW", "severity": "error"},
+    {"pattern": "(?i)\\bif(?:ace)?\\s+(?P<port>fc[\\d/]+).*\\bis down\\b", "event_type": "SW_PORT_DOWN", "severity": "error"},
+    {"pattern": "(?i)\\bif(?:ace)?\\s+(?P<port>fc[\\d/]+).*\\bis up\\b", "event_type": "SW_PORT_UP", "severity": "info"},
+    {"pattern": "(?i)\\bsystem restarted\\b", "event_type": "SW_REBOOT", "severity": "critical"}
+  ]
+}

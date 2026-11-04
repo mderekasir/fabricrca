@@ -1,0 +1,7 @@
+{
+  "year": 2026,
+  "topology": "../topology.json",
+  "hosts":    [{"name": "dbhost1", "log": "host.log", "multipath_ll": "../multipath_ll.txt", "host_info": "../host_info.json"}],
+  "switches": [{"name": "edge-a", "log": "edge-a.log"}, {"name": "edge-b", "log": "edge-b.log"}],
+  "arrays":   [{"name": "ARRAY-01", "log": "array.log"}]
+}

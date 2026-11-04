@@ -1,0 +1,5 @@
+Sep 24 03:10:00 dbhost1 systemd[1]: Started daily cleanup.
+Sep 24 03:14:02 dbhost1 kernel: sd 3:0:0:1: [sdc] tag#12 FAILED Result: hostbyte=DID_TRANSPORT_DISRUPTED
+Sep 24 03:14:02 dbhost1 multipathd[812]: sdc: mark as failed
+Sep 24 03:14:02 dbhost1 multipathd[812]: mpatha: remaining active paths: 1
+Sep 24 03:41:15 dbhost1 multipathd[812]: mpatha: sdc - tur checker reports path is up

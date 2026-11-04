@@ -1,0 +1,6 @@
+mpatha (36000000000000000000000000000d101) dm-2 EXAMPLE,VDISK
+size=2.0T features='1 queue_if_no_path' hwhandler='1 alua' wp=rw
+|-+- policy='service-time 0' prio=50 status=active
+| `- 3:0:0:1 sdc 8:32 active ready running
+`-+- policy='service-time 0' prio=50 status=enabled
+  `- 4:0:0:1 sdd 8:48 active ready running

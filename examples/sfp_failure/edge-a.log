@@ -1,0 +1,5 @@
+2026-09-24T02:58:10Z edge-a portd: port 1/7 link up, speed 32G
+2026-09-24T03:12:40Z edge-a monitor: port 2/3 crc errors exceeded threshold (412/min)
+2026-09-24T03:13:58Z edge-a monitor: port 2/3 rx power -15.1 dBm below threshold -12.0 dBm
+2026-09-24T03:14:03Z edge-a portd: port 2/3 link down (no light)
+2026-09-24T03:41:12Z edge-a portd: port 2/3 link up, speed 32G

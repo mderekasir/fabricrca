@@ -1,0 +1,13 @@
+{
+  "_comment": "Fictitious fabric. All names and WWNs are made up.",
+  "name_server": [
+    {"switch": "edge-a", "port": "1/4",  "wwn": "10:00:00:00:00:00:d1:01", "alias": "dbhost1_hba0"},
+    {"switch": "edge-a", "port": "2/3",  "wwn": "50:00:00:00:00:00:a1:02", "alias": "array01_ctrlA_p2"},
+    {"switch": "edge-b", "port": "1/4",  "wwn": "10:00:00:00:00:00:d1:02", "alias": "dbhost1_hba1"},
+    {"switch": "edge-b", "port": "2/3",  "wwn": "50:00:00:00:00:00:b1:02", "alias": "array01_ctrlB_p2"}
+  ],
+  "array_ports": [
+    {"array": "ARRAY-01", "port": "CTRL-A-2", "wwn": "50:00:00:00:00:00:a1:02"},
+    {"array": "ARRAY-01", "port": "CTRL-B-2", "wwn": "50:00:00:00:00:00:b1:02"}
+  ]
+}
